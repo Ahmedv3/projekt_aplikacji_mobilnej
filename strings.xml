@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quiz.app</string>
+    <string name="questionRussia">Czy Moskwa jest stolicą Rosji?</string>
+    <string name="questionAmerica">Czy Nowy York jest stolicą Stanów Zjednoczonych?</string>
+    <string name="questionWroclaw">Czy Wrocław znajduje się na Dolnym Śląsku?</string>
+    <string name="questionWarsaw">Czy Warszawa jest stolicą Polski?</string>
+    <string name="questionBerlin">Czy Berlin jest stolicą Czech?</string>
+    <string name="trueButton">Prawda</string>
+    <string name="falseButton">Fałsz</string>
+    <string name="correctToast">Dobrze!</string>
+    <string name="incorrectToast">Źle :(</string>
+    <string name="nextButton">Dalej</string>
+</resources>
