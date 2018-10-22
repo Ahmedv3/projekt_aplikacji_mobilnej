@@ -10,4 +10,5 @@
     <string name="correctToast">Dobrze!</string>
     <string name="incorrectToast">Źle :(</string>
     <string name="nextButton">Dalej</string>
+    <string name="previousButton">Poprzedni</string>
 </resources>
