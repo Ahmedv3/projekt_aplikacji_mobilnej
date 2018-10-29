@@ -3,10 +3,12 @@ package com.example.jakub.quizapp;
 public class Question {
     private int mTestResId;
     private boolean mAnswerTrue;
+    private boolean mQuestionAnswered;
 
-    public Question(int textResId, boolean answerTrue){
+    public Question(int textResId, boolean answerTrue,boolean questionAnswered){
         mTestResId = textResId;
         mAnswerTrue = answerTrue;
+        mQuestionAnswered = questionAnswered;
     }
 
     public int getTestResId() {
@@ -23,5 +25,16 @@ public class Question {
 
     public void setAnswerTrue(boolean answerTrue) {
         mAnswerTrue = answerTrue;
+    }
+
+    public boolean isQuestionAnswered(){
+        return mQuestionAnswered;
+    }
+    public void setQuestionAnswered(boolean questionAnswered){
+        mQuestionAnswered = questionAnswered;
+    }
+
+    public boolean getQuestionAnswered(){
+        return mQuestionAnswered;
     }
 }
