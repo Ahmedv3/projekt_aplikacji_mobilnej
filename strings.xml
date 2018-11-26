@@ -11,4 +11,8 @@
     <string name="incorrectToast">Źle :(</string>
     <string name="nextButton">Dalej</string>
     <string name="previousButton">Poprzedni</string>
+    <string name="cheatButton">Sprawdź Odpowiedź</string>
+    <string name="warningText">Czy na pewno?</string>
+    <string name="showAnswerButton">Pokaż odpowiedź</string>
+    <string name="judgmentText">Już widziałeś odpowiedź.</string>
 </resources>

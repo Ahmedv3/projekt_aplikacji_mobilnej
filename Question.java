@@ -4,11 +4,13 @@ public class Question {
     private int mTestResId;
     private boolean mAnswerTrue;
     private boolean mQuestionAnswered;
+    private boolean mQuestionIsCheated;
 
-    public Question(int textResId, boolean answerTrue,boolean questionAnswered){
+    public Question(int textResId, boolean answerTrue) {
         mTestResId = textResId;
         mAnswerTrue = answerTrue;
-        mQuestionAnswered = questionAnswered;
+        mQuestionAnswered = false;
+        mQuestionIsCheated = false;
     }
 
     public int getTestResId() {
@@ -27,14 +29,24 @@ public class Question {
         mAnswerTrue = answerTrue;
     }
 
-    public boolean isQuestionAnswered(){
+    public boolean isQuestionAnswered() {
         return mQuestionAnswered;
     }
-    public void setQuestionAnswered(boolean questionAnswered){
+
+    public void setQuestionAnswered(boolean questionAnswered) {
         mQuestionAnswered = questionAnswered;
     }
 
-    public boolean getQuestionAnswered(){
+    public boolean getQuestionAnswered() {
         return mQuestionAnswered;
     }
+
+    public void setQuestionIsCheated(boolean QuestionIsCheated) {
+        mQuestionIsCheated = QuestionIsCheated;
+    }
+
+    public boolean getQuestionIsCheated() {
+        return mQuestionIsCheated;
+    }
+
 }
